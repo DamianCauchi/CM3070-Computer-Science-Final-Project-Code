@@ -1,0 +1,750 @@
+{
+  "classes": [
+    "Dani Alves",
+    "Iniesta",
+    "Pique"
+  ],
+  "sample_count": 90,
+  "class_counts": {
+    "Dani Alves": 30,
+    "Iniesta": 30,
+    "Pique": 30
+  },
+  "folds": 3,
+  "correct_predictions": 43,
+  "accuracy": 0.4777777777777778,
+  "balanced_accuracy": 0.4777777777777777,
+  "macro_precision": 0.4671550671550671,
+  "macro_recall": 0.4777777777777777,
+  "macro_f1": 0.4659278204035237,
+  "mean_training_seconds_per_fold": 10.598357366669612,
+  "mean_prediction_seconds_per_clip": 0.00019146444489403318,
+  "confusion_matrix": [
+    [
+      8,
+      13,
+      9
+    ],
+    [
+      6,
+      19,
+      5
+    ],
+    [
+      7,
+      7,
+      16
+    ]
+  ],
+  "classification_report": {
+    "Dani Alves": {
+      "precision": 0.38095238095238093,
+      "recall": 0.26666666666666666,
+      "f1-score": 0.3137254901960784,
+      "support": 30.0
+    },
+    "Iniesta": {
+      "precision": 0.48717948717948717,
+      "recall": 0.6333333333333333,
+      "f1-score": 0.5507246376811594,
+      "support": 30.0
+    },
+    "Pique": {
+      "precision": 0.5333333333333333,
+      "recall": 0.5333333333333333,
+      "f1-score": 0.5333333333333333,
+      "support": 30.0
+    },
+    "accuracy": 0.4777777777777778,
+    "macro avg": {
+      "precision": 0.4671550671550671,
+      "recall": 0.4777777777777777,
+      "f1-score": 0.4659278204035237,
+      "support": 90.0
+    },
+    "weighted avg": {
+      "precision": 0.46715506715506716,
+      "recall": 0.4777777777777778,
+      "f1-score": 0.46592782040352376,
+      "support": 90.0
+    }
+  },
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_epoch": 15,
+      "best_validation_loss": 0.9649429519971212,
+      "best_validation_accuracy": 0.5,
+      "test_clips": 30,
+      "correct_predictions": 16,
+      "accuracy": 0.5333333333333333,
+      "training_seconds": 13.016601600014837,
+      "prediction_seconds_per_clip": 0.00020416333378913502
+    },
+    {
+      "fold": 2,
+      "best_epoch": 3,
+      "best_validation_loss": 1.0609176953633626,
+      "best_validation_accuracy": 0.3333333333333333,
+      "test_clips": 30,
+      "correct_predictions": 12,
+      "accuracy": 0.4,
+      "training_seconds": 7.76914879999822,
+      "prediction_seconds_per_clip": 0.00019809666749400398
+    },
+    {
+      "fold": 3,
+      "best_epoch": 10,
+      "best_validation_loss": 1.0463265975316365,
+      "best_validation_accuracy": 0.4166666666666667,
+      "test_clips": 30,
+      "correct_predictions": 15,
+      "accuracy": 0.5,
+      "training_seconds": 11.00932169999578,
+      "prediction_seconds_per_clip": 0.00017213333339896053
+    }
+  ],
+  "out_of_fold_predictions": [
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog 6-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog 7-1",
+      "expected": "Dani Alves",
+      "predicted": "Dani Alves",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves jog 12",
+      "expected": "Dani Alves",
+      "predicted": "Dani Alves",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog-1",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves run 2-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves run 6-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves run 7",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves run-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves walk 8",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\dani avles jog-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta jog",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta jog 2-1",
+      "expected": "Iniesta",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta run 6-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta running 5-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta running 6-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta slow jog",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta slow jog 2",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta slow jog 6-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta slow jog 7-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta walking-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique 1-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique 4-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique 5-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique run 3-1",
+      "expected": "Pique",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique run 5-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique run 6-1",
+      "expected": "Pique",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique Sprint 3-1",
+      "expected": "Pique",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique sprint-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique walk 7-1",
+      "expected": "Pique",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 1,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique walk-1",
+      "expected": "Pique",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog 2-1",
+      "expected": "Dani Alves",
+      "predicted": "Dani Alves",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog 5-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves jog 11",
+      "expected": "Dani Alves",
+      "predicted": "Dani Alves",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves run 1-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves run 3-1",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves Run 4-1",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves walk 4-1",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\ALves walk 10",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves walk -1",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves walk-jog-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta jog  run",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta run not cropped2-1",
+      "expected": "Iniesta",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta run not cropped-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta running 4-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta running-1",
+      "expected": "Iniesta",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta slow jog-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta sprint",
+      "expected": "Iniesta",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta sprint 4-1",
+      "expected": "Iniesta",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta walk 2-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta walk 3-1",
+      "expected": "Iniesta",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique 3-1",
+      "expected": "Pique",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique Jog 2-1",
+      "expected": "Pique",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique jog 7-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique jog 8-1",
+      "expected": "Pique",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique run 2-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique Slow jog 2-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique sprint 4-1",
+      "expected": "Pique",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique sprint 6-1",
+      "expected": "Pique",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique walk 2-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 2,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique walk 9-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog 1-1",
+      "expected": "Dani Alves",
+      "predicted": "Dani Alves",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog 3-1",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog 8-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves jog 9-1",
+      "expected": "Dani Alves",
+      "predicted": "Dani Alves",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves run 5-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves run - walk-1",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves Slow jog-1",
+      "expected": "Dani Alves",
+      "predicted": "Dani Alves",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\alves walk 2-1",
+      "expected": "Dani Alves",
+      "predicted": "Dani Alves",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves walk 6-1",
+      "expected": "Dani Alves",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Dani Alves BFC 22\\Silhouettes\\Alves walk 7-1",
+      "expected": "Dani Alves",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta jog 9-1",
+      "expected": "Iniesta",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta jog 10-1",
+      "expected": "Iniesta",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta run 7-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta running 1-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta running 2-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta running 3-1",
+      "expected": "Iniesta",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta slow jog 3",
+      "expected": "Iniesta",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta Sprint-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\Iniesta walk 4-1",
+      "expected": "Iniesta",
+      "predicted": "Pique",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Iniesta BFC 8\\Silhouettes\\iniesta walk-1",
+      "expected": "Iniesta",
+      "predicted": "Iniesta",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique 2-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique 6-1",
+      "expected": "Pique",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique 8-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique 9-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique jog 3-1",
+      "expected": "Pique",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\pique jog 4-1",
+      "expected": "Pique",
+      "predicted": "Dani Alves",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique jog 5-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique jog-1",
+      "expected": "Pique",
+      "predicted": "Iniesta",
+      "correct": false
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique run 7-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    },
+    {
+      "fold": 3,
+      "clip": "C:\\Users\\User\\Desktop\\Project Files\\Database\\Player Recordings\\Pique BFC 3\\Silhouettes\\Pique run-1",
+      "expected": "Pique",
+      "predicted": "Pique",
+      "correct": true
+    }
+  ],
+  "config": {
+    "image_size": 32,
+    "max_frames": 40,
+    "hidden_size": 32,
+    "epochs": 100,
+    "patience": 15,
+    "batch_size": 4,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "seed": 42
+  }
+}
